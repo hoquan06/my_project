@@ -70,12 +70,13 @@
                                         <div class="d-flex flex-row align-items-center mb-2">
                                             <input class="form-check-input" id="agree" type="checkbox" value="" />
                                             <label class="form-check-label">
-                                                I agree all statements in <a href="">Terms of service</a>
+                                                Tôi đồng ý với <a href="">Điều khoản và dịch vụ</a>
                                             </label>
                                         </div>
+                                        <p class="text-center text-muted mt-3 mb-0">Bạn đã có tài khoản? <a href="/agent/login" class="fw-bold text-body"><u>Đăng Nhập</u></a></p>
                                         <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                                             <button id="register" type="button"
-                                                class="btn btn-primary btn-lg">Register</button>
+                                                class="btn btn-primary btn-lg">Đăng Ký</button>
                                         </div>
                                     </form>
 

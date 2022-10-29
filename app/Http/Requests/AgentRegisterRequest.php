@@ -34,7 +34,7 @@ class AgentRegisterRequest extends FormRequest
             'boolean'       =>  ':attribute chỉ được chọn True/False',
             'unique'        =>  ':attribute đã tồn tại',
             'same'          =>  ':attribute và mật khẩu không giống',
-            'digits'        =>  ':attribute phải là 10 sô',
+            'digits'        =>  ':attribute phải là 10 số',
             'agree.accepted'   =>  'Bạn phải đồng ý điều khoản!',
         ];
     }

@@ -50,8 +50,6 @@
         }
 
         hienThiDuLieu();
-
-
     });
 </script>
 </html>

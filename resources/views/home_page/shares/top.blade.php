@@ -56,7 +56,7 @@
             <div class="row align-items-center no-gutters">
                 <div class="col-lg-3 col-md-12">
                     <div class="logo mb-all-30">
-                        <a href="index.html"><img src="/assets_homepage/img/logo/logo.png" alt="logo-image"></a>
+                        <a href="http://127.0.0.1:8000/"><img src="/assets_homepage/img/logo/logo.png" alt="logo-image"></a>
                     </div>
                 </div>
                 <!-- Categorie Search Box Start Here -->
@@ -191,7 +191,7 @@
                             </li>
                             @endforeach
 
-                            <li><a href="about.html">About us</a></li>
+                            <li><a href="about.html">About Us</a></li>
                             <li><a href="contact.html">Contact us</a></li>
                         </ul>
                     </nav>
@@ -236,7 +236,7 @@
                                     </ul>
                                     <!-- Mobile Menu Dropdown End -->
                                 </li>
-                                <li><a href="about.html">about us</a></li>
+                                <li><a href="https://www.facebook.com/quan.ho.66">about us</a></li>
                                 <li><a href="contact.html">contact us</a></li>
                             </ul>
                         </nav>

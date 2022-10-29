@@ -98,6 +98,16 @@ class DanhMucSanPhamController extends Controller
         }
     }
 
+    public function update(UpdateDanhMucSanPhamRequest $request)
+    {
+        $data     = $request->all();
+        $danh_muc = DanhMucSanPham::find($request->id);
+        $danh_muc->update($data);
+
+        return response()->json(['status'=> true]);
+    }
+
+
     public function edit_form($id)
     {
         $danh_muc = DanhMucSanPham::find($id);
@@ -119,15 +129,4 @@ class DanhMucSanPhamController extends Controller
         toastr()->success('Đã cập nhật danh mục thành công!');
         return redirect('/admin/danh-muc-san-pham/index');
     }
-
-    public function update(UpdateDanhMucSanPhamRequest $request)
-    {
-        $data     = $request->all();
-        $danh_muc = DanhMucSanPham::find($request->id);
-        $danh_muc->update($data);
-
-        return response()->json(['status'=> true]);
-    }
-
-
 }

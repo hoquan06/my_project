@@ -85,8 +85,8 @@ class SanPhamController extends Controller
         ]);
     }
 
-    public function viewProduct()
-    {
-        return view('home_page.pages.detail_san_pham');
-    }
+    // public function viewProduct()
+    // {
+    //     return view('home_page.pages.detail_san_pham');
+    // }
 }

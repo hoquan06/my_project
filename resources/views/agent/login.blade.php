@@ -36,9 +36,10 @@
                                                 <label class="form-label">Mật Khẩu</label>
                                             </div>
                                         </div>
+                                        <p class="text-center text-muted mt-3 mb-0">Bạn chưa có tài khoản? <a href="/agent/register" class="fw-bold text-body"><u>Đăng Ký</u></a></p>
                                         <div class="d-flex justify-content-end mx-4 mb-3 mb-lg-4">
                                             <button id="login" type="button"
-                                                class="btn btn-primary btn-lg">Login</button>
+                                                class="btn btn-primary btn-lg">Đăng Nhập</button>
                                         </div>
                                     </form>
 
@@ -86,7 +87,7 @@
                         if(res.status == 2) {
                             toastr.success('Bạn đã login thành công!');
                             setTimeout(function(){
-                                $(location).attr('href','http://127.0.0.1:8000');;
+                                $(location).attr('href','http://127.0.0.1:8000');
                             }, 2000);
                         } else if(res.status == 1) {
                             toastr.warning("Bạn cần phải kích hoạt email");

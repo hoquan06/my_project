@@ -70,17 +70,6 @@ class KhoHangController extends Controller
         }
     }
 
-    public function show(KhoHang $khoHang)
-    {
-        //
-    }
-
-
-    public function edit(KhoHang $khoHang)
-    {
-        //
-    }
-
     public function update(Request $request)
     {
         // $request->id, $request->so_luong, $request->don_gia
